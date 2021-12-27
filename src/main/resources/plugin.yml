@@ -1,0 +1,18 @@
+name: OProtection
+version: '${project.version}'
+main: dev.etcroot.oprotection.OProtection
+api-version: 1.18
+authors: [etcroot]
+description: Plugin to secure server from OP exploits
+website: https://github.com/etcroot
+commands:
+    opreload:
+        description: Reload the OProtection plugin.
+        usage: /opreload
+    op:
+        description: Make a player operator if they're in the allowed op list.
+        usage: /op <player>
+    deop:
+        description: De-Op a player if they're in the allowed op list.
+        usage: /deop <player>
+

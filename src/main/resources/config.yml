@@ -1,0 +1,24 @@
+# Example of your UUID
+# You can get your UUID from https://namemc.com/
+# Remove the default UUID for security.
+allowed-op:
+- "1de0e79c-70c8-4c89-8849-2e67dd86eee5"
+
+# Disable minecraft:op & minecraft:deop
+disable-cmd: true
+
+# Language stuff, change them as you please but DO NOT change the variable names.
+# The plugin will crash if you change the variable names, only change values!
+# Placeholders: %player%
+prefix: "&c&lOProtection &7> &r"
+no-perms: "&cYou're not allowed to execute this command."
+no-username: "&cYou didn't provide with a username."
+not-online: "&cThis player is not online."
+removed-player: "&cRemoved &b%player%&c as operator."
+added-player: "&aAdded &b%player%&a as operator."
+not-in-list: "&cThis player is not in the allowed operator list."
+plugin-reloaded: "&aPlugin successfully reloaded."
+cmd-disabled: "&cThis command is disabled."
+
+# DO NOT CHANGE THIS IT WILL BREAK THE PLUGIN
+pl-version: 1.0.4
