@@ -1,5 +1,5 @@
 # OProtections
-A open source plugin for op exploit protections
+A open source minecraft plugin for OP exploit protecting your server/network. ✌️
 
 You may not use this for:
 - Commercial Use
